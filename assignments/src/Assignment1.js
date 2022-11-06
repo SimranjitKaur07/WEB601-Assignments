@@ -6,8 +6,8 @@ export default function Assignment1(){
     
         <div>
             <h1>{temp}</h1>
-            <button>+</button>
-            <button>-</button>
+            <button onClick={()=>{setTemp(temp+1)}}>+</button>
+            <button onClick={()=>{setTemp(temp-1)}}>-</button>
         </div>
     )
 }
