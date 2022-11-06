@@ -6,6 +6,8 @@ export default function Assignment1(){
     
         <div>
             <h1>{temp}</h1>
+            <button>+</button>
+            <button>-</button>
         </div>
     )
 }
