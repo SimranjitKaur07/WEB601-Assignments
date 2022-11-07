@@ -4,11 +4,13 @@ import './index.css';
 import './App';
 import reportWebVitals from './reportWebVitals';
 import Assignment1 from './Assignment1';
+import Movies from './Movies';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 <Assignment1 />
+<Movies />
   </React.StrictMode>
 );
 
